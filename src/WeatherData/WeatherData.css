@@ -1,0 +1,89 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../assets/weatherimg.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    
+}   
+
+.input{
+    width: 40%;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 15px;
+    font-size: 16px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.7)
+
+}
+
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 90vh;
+
+}
+
+.top{
+    margin: 0px;
+    margin-top: 20px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7)
+
+}
+
+.location{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+.description{
+    rotate: -90deg;
+    font-size: 18px;
+}
+
+
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0, 0.55);
+    border-radius: 5px;
+    color: white;
+    gap: 50px;
+    padding: 0px 10px;
+
+}
+
+.bold{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.feels{
+    text-align: center;
+    
+}
+
+.humidity{
+    text-align: center;
+}
+
+.wind{
+    text-align: center;
+}
